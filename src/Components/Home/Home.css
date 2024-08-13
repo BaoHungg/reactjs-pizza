@@ -1,0 +1,174 @@
+/* Home.css */
+
+.pizza-menu {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pizza-menu h1{
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+}
+.pizza-menu h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    text-align: left;
+    width: 100%;
+    max-width: 1200px;
+    color: #333;
+    font-weight: 700;
+    padding-left: 10px;
+    border-bottom: #666 0.5px solid;
+}
+.pizza-menu h2:hover{
+    color: #30673d;
+}
+.pizza-menu h3 {
+    font-size: 1.25rem;
+    margin: 0;
+    padding: 0.5rem 0;
+    text-align: left;
+    width: 100%;
+    max-width: 1200px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.pizza-menu h3:hover{
+    color: #30673d;
+}
+.pizza-list h3{
+    padding-left: 10px;
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+    border-bottom: #666 0.5px solid;
+}
+.pizza-list h3:hover{
+    color: #30673d;
+}
+.menu-categories {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    width: 100%;
+    max-width: 1200px;
+    
+}
+
+.category-btn {
+    font-size: 14px;
+    margin: 0.25rem 0.5rem;
+    background-color: #fff;
+    border-radius: 20px;
+    transition: 0.25s;
+    white-space: nowrap;
+    padding: 0.5rem 1rem;
+}
+
+.category-btn:hover {
+    color: #ff0000;
+}
+
+.category-btn.active {
+    color: #ff0000;
+    border: solid 0.5px #ff0000;
+}
+
+.pizza-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.pizza-item {
+    margin: 1rem;
+    padding: 1rem;
+    border: none;
+    width: 260px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.pizza-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    transition: 0.3s ease;
+}
+
+.pizza-item img:hover {
+    transform: rotate(15deg);
+}
+
+.pizza-item h4 {
+    height: 50px;
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+    font-weight: bold;
+}
+.pizza-item h4:hover {
+    color: #30673d;
+}
+.pizza-item p {
+    height: 50px;
+    font-size: 0.7rem;
+    color: #666;
+    margin: 0.5rem 0;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.price span:first-child {
+    font-size: 0.9rem; /* Smaller font size for "Giá chỉ từ" */
+}
+
+.price span:last-child {
+    font-size: 1.3rem; /* Larger font size for the actual price */
+    font-weight: bold; /* Bold font for the actual price */
+    color: black;
+}
+
+.buy-now-btn {
+    padding: 0.5rem 0.5rem;
+    border: 1px solid #28a745;
+    background-color: #fff;
+    color: #28a745;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    font-weight: bold;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+.buy-now-btn:hover {
+    background-color: #dc3545;
+    border: 1px solid #dc3545;
+    color: #fff;
+}
+
+.buy-now-btn:after {
+    content: ' →';
+}
+
+.price-and-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+
+/* load */

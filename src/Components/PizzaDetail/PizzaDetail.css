@@ -1,0 +1,227 @@
+.pizza-detail {
+  display: flex;
+  padding: 2rem;
+  padding-top: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  gap: 2rem;
+}
+
+.pizza-image {
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+
+.pizza-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.pizza-image img:hover {
+  transform: scale(1.1);
+}
+
+.pizza-info {
+  flex: 2;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pizza-info h1 {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.pizza-info .price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff0000;
+  margin-bottom: 1rem;
+}
+
+.pizza-info .description {
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+.options {
+  margin-bottom: 0.5rem;
+}
+
+.size,
+.crust,
+.notes {
+  margin-bottom: 1.5rem;
+}
+
+.size h3,
+.crust h3,
+.notes h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.size button {
+  margin-right: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.size button.active {
+  background-color: #28a745;
+  color: #fff;
+  border-color: #28a745;
+}
+
+.size button:hover {
+  background-color: #218838;
+  color: #fff;
+  border-color: #218838;
+}
+/* quantity */
+.quantity {
+  margin-bottom: 1.5rem;
+}
+
+.quantity h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  
+}
+
+.quantity-btn {
+  width: 2rem;
+  height: 2rem;
+  background-color: #ddd;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.quantity-btn:hover {
+  background-color: #ccc;
+}
+
+.quantity-display {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  width: 3rem;
+  text-align: center;
+}
+
+
+.notes textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  resize: none;
+}
+
+.add-to-cart {
+  padding: 1rem 2rem;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s, color 0.3s;
+  align-self: flex-start;
+}
+
+.add-to-cart:hover {
+  background-color: #218838;
+}
+
+/* Relate */
+.relate {
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.relate h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  width: 100%;
+  color: #333;
+  font-weight: 700;
+  padding-left: 10px;
+  text-align: center;
+  padding-top: 20px;
+  border-top: #666 0.5px solid;
+}
+
+.relate h3:hover {
+  color: #30673d;
+}
+
+.related-products {
+  display: flex;
+  justify-content: space-evenly;
+  overflow-x: auto;
+  /* Cho phép cuộn ngang */
+  gap: 1.5rem;
+  /* Khoảng cách giữa các sản phẩm */
+  padding: 0 1rem;
+  /* Padding bên trái và phải */
+  max-width: auto;
+}
+
+.related-product {
+  flex: 0 0 auto;
+  /* Giữ kích thước cố định */
+
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+  
+}
+
+.related-product img {
+  width: 70%;
+  margin: 0 auto;
+
+}
+
+.related-product h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000000;
+  margin: 0.5rem 0;
+  transition: 0.3s;
+}
+.related-product h4:hover{
+  font-weight: bold;
+}
+.related-product .price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: black;
+  align-items: center;
+}
+.related-product:hover {
+  transform: translateY(-5px);
+  
+}

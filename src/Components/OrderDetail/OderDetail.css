@@ -1,0 +1,148 @@
+/* OrderDetail.css */
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+    /* Màu xanh chủ đạo */
+    margin-bottom: 20px;
+}
+
+.order-detail {
+    padding: 20px;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    /* Màu nền nhạt */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Tạo bóng mờ cho hộp */
+}
+
+.order-container {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    /* Màu nền trắng cho mỗi đơn hàng */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    /* Tạo bóng mờ nhẹ cho hộp */
+}
+
+.order-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #333;
+    /* Dòng dưới tiêu đề màu xanh lá cây */
+    padding-bottom: 10px;
+}
+
+.order-title h2 {
+    font-size: 20px;
+    color: black;
+    /* Màu xanh chủ đạo */
+}
+
+.order-title p {
+    font-size: 16px;
+}
+
+.order-products {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.order-products th,
+.order-products td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.order-products th {
+    background-color: #006a31;
+    /* Màu nền tiêu đề bảng */
+    color: #ffffff;
+    /* Màu chữ tiêu đề bảng */
+}
+
+.order-products td {
+    background-color: #f9f9f9;
+    /* Màu nền các ô dữ liệu */
+}
+
+.order-products tr:nth-child(even) td {
+    background-color: #f1f1f1;
+    /* Màu nền ô dữ liệu hàng chẵn */
+}
+
+.order-summary {
+    display: flex;
+    justify-content: space-between;
+    /* Căn đều khoảng cách giữa các phần tử */
+    align-items: flex-start;
+    /* Căn căn trên cho các phần tử */
+    background-color: #e9edf0;
+    /* Màu nền nhạt cho phần tổng kết */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    /* Tạo bóng mờ nhẹ cho phần tổng kết */
+    margin-top: 20px;
+}
+
+.order-summary>div {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.order-summary h5 {
+    margin: 0;
+    font-size: 18px;
+
+}
+
+.order-summary h5 {
+    font-size: 16px;
+    color: #333;
+    /* Màu chữ đánh giá, liên hệ */
+}
+
+.order-summary p {
+    font-size: 16px;
+    color: red;
+    /* Màu chữ giá tiền */
+}
+
+.order-summary strong {
+    color: black;
+    /* Màu xanh lá cây cho các từ mạnh */
+}
+
+/* NO ORDER */
+.no-orders {
+    text-align: center;
+    padding: 40px;  
+    border-radius: 8px;
+    
+}
+
+.no-orders i {
+    font-size: 50px;
+    color: #333;
+    /* Màu cam cho biểu tượng */
+    margin-bottom: 20px;
+}
+
+.no-orders p {
+    font-size: 18px;
+    color: #333;
+    /* Màu chữ nhạt */
+    font-weight: 500;
+    font-style: italic;
+}

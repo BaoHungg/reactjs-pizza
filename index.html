@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pizza</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+ 
+   <script src="https://kit.fontawesome.com/708195c69e.js" crossorigin="anonymous"></script>
+    <!-- Thêm jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Thêm Slick Slider CSS và JS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script> <!--Box icon-->
+
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+<script type="text/javascript">
+  $(document).ready(function(){
+      $('.banner-slider').slick({
+          dots: false,
+          infinite: true,
+          speed: 500,
+          fade: true,
+          cssEase: 'linear',
+          autoplay: true,
+          autoplaySpeed: 2000, // Tự động chuyển banner sau 2 giây
+          prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
+          nextArrow: '<button type="button" class="slick-next"><i class="fas fa-chevron-right"></i></button>'
+      });
+  });
+</script>
+</html>

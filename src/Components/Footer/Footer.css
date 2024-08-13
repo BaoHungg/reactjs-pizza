@@ -1,0 +1,93 @@
+.footer {
+    background-color: #046B2F;
+    color: #fff;
+    padding: 30px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 20px;
+    min-width: 200px;
+}
+
+.footer-logo-section {
+    text-align: center;
+}
+
+.footer-logo {
+    width: 150px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+.footer-phone {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer-phone span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-phone p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-links-section h3,
+.footer-address-section h3,
+.footer-support-section h3 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.footer-links-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links-section ul li {
+    margin: 5px 0;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-links-section ul li:hover {
+    color: #28a745; /* Change to green on hover */
+}
+
+.footer-address-section p,
+.footer-support-section p {
+    margin: 5px 0;
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+.footer-address-section p:hover,
+.footer-support-section p:hover {
+    color: #28a745; /* Change to green on hover */
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #fff;
+    margin-top: 20px;
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+.footer-bottom p:hover {
+    color: #28a745; /* Change to green on hover */
+}

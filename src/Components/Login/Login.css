@@ -1,0 +1,148 @@
+.login-container {
+  display: flex;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  /* padding-top: 20px;
+    padding-bottom: 20px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.login-left {
+  flex: 1;
+  background-color: #e7f3ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.logoLogin {
+  max-width: 300px;
+  margin-bottom: 2rem;
+}
+
+.illustration {
+  max-width: 100%;
+}
+
+.login-right {
+  flex: 1;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-right h2 {
+  margin: 0;
+  font-size: 2rem;
+  color: #333;
+  border-bottom: #333 1px solid;
+
+}
+
+.login-right p {
+  margin: 0.5rem 0 2rem;
+  color: #666;
+  font-style: oblique;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.login-form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form-group label {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.login-form-group input {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.login-form-group input:focus {
+  border-color: #1d72b8;
+  box-shadow: 0 0 5px rgba(29, 114, 184, 0.3);
+  outline: none;
+}
+
+.login-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.recover-password {
+  color: #e74c3c;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s;
+}
+
+.recover-password:hover {
+  color: #c0392b;
+}
+
+.login-btn {
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #006a31;
+  transform: translateY(-2px);
+}
+
+.register-prompt {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.register-prompt a {
+  color: #1d72b8;
+  text-decoration: none;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+.register-prompt a:hover {
+  color: #155a8a;
+  text-decoration: underline;
+}
+
+.login-right .error-message {
+  color: red;
+}
